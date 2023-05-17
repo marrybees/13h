@@ -1,0 +1,11 @@
+{% extends '1.html' %}
+
+{% block content %}
+      {{ super() }}
+    <h2> login - ავტორიზაცია </h2>
+
+<from method = 'post' style = '...'>
+ <input type="text" name="username" class="form-control mb-3 mt-3" placeholder="username">
+    <input type="password" name="password" class="form-control" placeholder="password">
+    <button type="submit" class="btn btn-success mt-3">ავტორიზაცია</button>
+    </from>
